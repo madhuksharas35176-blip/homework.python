@@ -1,7 +1,7 @@
-temperature = float(input("Enter the current temperature in Celsius: "))
+char = input("Enter a character: ")
 
-if temperature >= 20:
-    print("It's warm enough! You can wear light and soft clothes.")
+# Checking if the character is an alphabet
+if char.isalpha():
+    print(f"'{char}' is an alphabet.")
 else:
-    print("It's still too cold. Stick with your jacket and pullover for now.")
-
+    print(f"'{char}' is not an alphabet.")
