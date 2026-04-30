@@ -1,9 +1,10 @@
-a = 10
-b = 20
-c = 30
+temp = input("What is the temperature? ")
 
-a,b,c = b,c,a
+temp = int(temp)
 
-print(a)
-print(b)
-print(c)
+if temp > 20:
+    print("Wear light clothes.")
+
+else:
+    
+    print("Wear a jacket.")
