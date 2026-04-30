@@ -1,10 +1,7 @@
-temp = input("What is the temperature? ")
+age = int(input("Enter the student's age: "))
 
-temp = int(temp)
-
-if temp > 20:
-    print("Wear light clothes.")
-
-else:
+if 10 <= age <= 20:
+    print("Enrollment successful! You are allowed in the class.")
     
-    print("Wear a jacket.")
+else:
+    print("Enrollment failed. Students must be between 10 and 20 years old.")
