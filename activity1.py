@@ -1,4 +1,14 @@
-n = 5 
-for i in range(1, n + 1):
-    
-    print(" " * (n - i) + "*" * i)
+from turtle import *
+
+bgcolor("yellow")
+
+color("blue")       
+pensize(3)
+
+for i in range(4):
+    forward(100)
+    right(90)
+
+done() 
+
+
